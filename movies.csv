@@ -1,0 +1,101 @@
+movie_id,title,genre,year,rating,votes,director,runtime_min
+1,The Shawshank Redemption,Drama,1994,9.3,2500000,Frank Darabont,142
+2,The Godfather,Crime,1972,9.2,1800000,Francis Ford Coppola,175
+3,The Dark Knight,Action,2008,9.0,2700000,Christopher Nolan,152
+4,Pulp Fiction,Crime,1994,8.9,2000000,Quentin Tarantino,154
+5,Forrest Gump,Drama,1994,8.8,1900000,Robert Zemeckis,142
+6,Inception,Sci-Fi,2010,8.8,2300000,Christopher Nolan,148
+7,The Matrix,Sci-Fi,1999,8.7,1700000,Lana Wachowski,136
+8,Goodfellas,Crime,1990,8.7,1100000,Martin Scorsese,146
+9,The Silence of the Lambs,Thriller,1991,8.6,1400000,Jonathan Demme,118
+10,Interstellar,Sci-Fi,2014,8.6,1800000,Christopher Nolan,169
+11,Schindler's List,Drama,1993,8.9,1300000,Steven Spielberg,195
+12,Fight Club,Drama,1999,8.8,2100000,David Fincher,139
+13,The Lord of the Rings: The Return of the King,Fantasy,2003,8.9,1700000,Peter Jackson,201
+14,The Lord of the Rings: The Fellowship of the Ring,Fantasy,2001,8.8,1800000,Peter Jackson,178
+15,Star Wars: Episode IV,Sci-Fi,1977,8.6,1300000,George Lucas,121
+16,The Avengers,Action,2012,8.0,1300000,Joss Whedon,143
+17,Avengers: Endgame,Action,2019,8.4,1100000,Anthony Russo,181
+18,Titanic,Romance,1997,7.9,1100000,James Cameron,194
+19,Jurassic Park,Sci-Fi,1993,8.1,900000,Steven Spielberg,127
+20,The Lion King,Animation,1994,8.5,1000000,Roger Allers,88
+21,Toy Story,Animation,1995,8.3,950000,John Lasseter,81
+22,Finding Nemo,Animation,2003,8.1,1000000,Andrew Stanton,100
+23,Up,Animation,2009,8.2,1100000,Pete Docter,96
+24,WALL-E,Animation,2008,8.4,1000000,Andrew Stanton,98
+25,The Dark Knight Rises,Action,2012,8.4,1600000,Christopher Nolan,164
+26,Batman Begins,Action,2005,8.2,1400000,Christopher Nolan,140
+27,Se7en,Thriller,1995,8.6,1500000,David Fincher,127
+28,The Usual Suspects,Thriller,1995,8.5,1100000,Bryan Singer,106
+29,Léon: The Professional,Thriller,1994,8.5,1100000,Luc Besson,110
+30,Saving Private Ryan,Drama,1998,8.6,1300000,Steven Spielberg,169
+31,Gladiator,Action,2000,8.5,1400000,Ridley Scott,155
+32,The Green Mile,Drama,1999,8.6,1300000,Frank Darabont,189
+33,Braveheart,Drama,1995,8.3,1000000,Mel Gibson,178
+34,The Departed,Crime,2006,8.5,1300000,Martin Scorsese,151
+35,Memento,Thriller,2000,8.4,1200000,Christopher Nolan,113
+36,The Prestige,Drama,2006,8.5,1300000,Christopher Nolan,130
+37,Django Unchained,Western,2012,8.4,1400000,Quentin Tarantino,165
+38,Inglourious Basterds,War,2009,8.3,1300000,Quentin Tarantino,153
+39,Whiplash,Drama,2014,8.5,800000,Damien Chazelle,107
+40,La La Land,Romance,2016,8.0,700000,Damien Chazelle,128
+41,Mad Max: Fury Road,Action,2015,8.1,900000,George Miller,120
+42,John Wick,Action,2014,7.4,600000,Chad Stahelski,101
+43,Get Out,Horror,2017,7.7,500000,Jordan Peele,104
+44,A Quiet Place,Horror,2018,7.5,400000,John Krasinski,90
+45,Hereditary,Horror,2018,7.3,300000,Ari Aster,127
+46,Parasite,Thriller,2019,8.5,700000,Bong Joon-ho,132
+47,Joker,Drama,2019,8.4,1000000,Todd Phillips,122
+48,1917,War,2019,8.3,600000,Sam Mendes,119
+49,Dunkirk,War,2017,7.9,600000,Christopher Nolan,106
+50,Oppenheimer,Drama,2023,8.9,700000,Christopher Nolan,180
+51,Barbie,Comedy,2023,6.9,400000,Greta Gerwig,114
+52,Avatar,Sci-Fi,2009,7.9,1200000,James Cameron,162
+53,Avatar: The Way of Water,Sci-Fi,2022,7.6,400000,James Cameron,192
+54,Top Gun: Maverick,Action,2022,8.2,500000,Joseph Kosinski,130
+55,Everything Everywhere All at Once,Sci-Fi,2022,7.8,500000,Daniel Kwan,139
+56,The Batman,Action,2022,7.8,600000,Matt Reeves,176
+57,Spider-Man: No Way Home,Action,2021,8.3,700000,Jon Watts,148
+58,Dune,Sci-Fi,2021,8.0,600000,Denis Villeneuve,155
+59,No Time to Die,Action,2021,7.3,300000,Cary Fukunaga,163
+60,Black Panther,Action,2018,7.3,500000,Ryan Coogler,134
+61,Doctor Strange,Action,2016,7.5,700000,Scott Derrickson,115
+62,Thor: Ragnarok,Action,2017,7.9,700000,Taika Waititi,130
+63,Guardians of the Galaxy,Action,2014,8.0,900000,James Gunn,121
+64,Iron Man,Action,2008,7.9,900000,Jon Favreau,126
+65,Captain America: Civil War,Action,2016,7.8,700000,Anthony Russo,147
+66,The Social Network,Drama,2010,7.8,700000,David Fincher,120
+67,Gone Girl,Thriller,2014,8.1,900000,David Fincher,149
+68,Zodiac,Thriller,2007,7.7,400000,David Fincher,157
+69,Shutter Island,Thriller,2010,8.1,1100000,Martin Scorsese,138
+70,The Wolf of Wall Street,Drama,2013,8.2,1300000,Martin Scorsese,180
+71,Casino,Crime,1995,8.2,800000,Martin Scorsese,178
+72,Taxi Driver,Drama,1976,8.2,700000,Martin Scorsese,113
+73,Raging Bull,Drama,1980,8.2,300000,Martin Scorsese,129
+74,2001: A Space Odyssey,Sci-Fi,1968,8.3,600000,Stanley Kubrick,149
+75,A Clockwork Orange,Drama,1971,8.3,700000,Stanley Kubrick,136
+76,The Shining,Horror,1980,8.4,900000,Stanley Kubrick,146
+77,Full Metal Jacket,War,1987,8.3,700000,Stanley Kubrick,116
+78,Eyes Wide Shut,Drama,1999,7.5,300000,Stanley Kubrick,159
+79,Alien,Sci-Fi,1979,8.4,800000,Ridley Scott,117
+80,Blade Runner,Sci-Fi,1982,8.1,700000,Ridley Scott,117
+81,Blade Runner 2049,Sci-Fi,2017,8.0,600000,Denis Villeneuve,164
+82,Arrival,Sci-Fi,2016,7.9,700000,Denis Villeneuve,116
+83,Prisoners,Thriller,2013,8.1,700000,Denis Villeneuve,153
+84,Sicario,Thriller,2015,7.6,400000,Denis Villeneuve,121
+85,Spirited Away,Animation,2001,8.6,700000,Hayao Miyazaki,125
+86,My Neighbor Totoro,Animation,1988,8.1,300000,Hayao Miyazaki,86
+87,Princess Mononoke,Animation,1997,8.3,400000,Hayao Miyazaki,134
+88,Howl's Moving Castle,Animation,2004,8.2,400000,Hayao Miyazaki,119
+89,Nausicaä of the Valley of the Wind,Animation,1984,8.1,200000,Hayao Miyazaki,117
+90,Coco,Animation,2017,8.4,500000,Lee Unkrich,105
+91,Inside Out,Animation,2015,8.1,600000,Pete Docter,95
+92,Monsters Inc,Animation,2001,8.1,800000,Pete Docter,92
+93,The Incredibles,Animation,2004,8.0,800000,Brad Bird,115
+94,Ratatouille,Animation,2007,8.1,600000,Brad Bird,111
+95,Eternal Sunshine of the Spotless Mind,Romance,2004,8.3,900000,Michel Gondry,108
+96,Her,Romance,2013,8.0,600000,Spike Jonze,126
+97,500 Days of Summer,Romance,2009,7.7,500000,Marc Webb,95
+98,Notting Hill,Romance,1999,7.1,200000,Roger Michell,124
+99,Pretty Woman,Romance,1990,6.9,200000,Garry Marshall,119
+100,The Notebook,Romance,2004,7.8,300000,Nick Cassavetes,123
