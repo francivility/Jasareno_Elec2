@@ -1,52 +1,28 @@
 # ============================================================
 # PySpark Activity: Movies Dataset Analysis
 # ============================================================
-# HOW TO RUN:
-#   1. Put this file and movies.csv in the same folder
-#   2. Open PowerShell in that folder
-#   3. Type: python pyspark_movies_simple.py
-# ============================================================
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, count, avg, desc, round
 
-# ─────────────────────────────────────────────
-# STEP 1: Start Spark
-# ─────────────────────────────────────────────
-# SparkSession is the starting point of every PySpark program
 spark = SparkSession.builder \
     .appName("Movies Analysis") \
     .getOrCreate()
 
-# Hide unnecessary logs so output is clean
 spark.sparkContext.setLogLevel("ERROR")
 
 print("Spark started!")
 
-
-# ─────────────────────────────────────────────
-# STEP 2: Load the CSV file
-# ─────────────────────────────────────────────
-# Read the CSV file into a DataFrame (like a table)
-# header=True  → first row is column names
-# inferSchema  → automatically detects data types
 df = spark.read.csv("movies.csv", header=True, inferSchema=True)
 
 print("\n--- LOADED DATA ---")
-print("Total movies:", df.count())   # Count total rows
-print("Columns:", df.columns)        # Show column names
+print("Total movies:", df.count())   
+print("Columns:", df.columns)        
 
 # Show the first 5 rows
 print("\nFirst 5 rows:")
 df.show(5, truncate=False)
 
-
-# ─────────────────────────────────────────────
-# STEP 3: Basic Operations
-# ─────────────────────────────────────────────
-
-# --- Select specific columns ---
-# Only show title, genre, year, and rating
 print("\n--- SELECTED COLUMNS ---")
 df.select("title", "genre", "year", "rating").show(5)
 
@@ -67,10 +43,6 @@ print("Rows before cleaning:", df.count())
 print("Rows after cleaning: ", df_clean.count())
 
 
-# ─────────────────────────────────────────────
-# STEP 4: SQL Queries
-# ─────────────────────────────────────────────
-# Register the DataFrame as a table so we can use SQL
 df_clean.createOrReplaceTempView("movies")
 
 print("\n--- SQL QUERY 1: Top 5 Most Frequent Genres ---")
@@ -104,15 +76,9 @@ spark.sql("""
     LIMIT 5
 """).show(truncate=False)
 
-
-# ─────────────────────────────────────────────
-# STEP 5: Save Results to CSV
-# ─────────────────────────────────────────────
-# coalesce(1) = save as a single file instead of many parts
-
 print("\n--- SAVING RESULTS ---")
 
-# Save top genres
+
 top_genres = spark.sql("""
     SELECT genre, COUNT(*) AS total_movies
     FROM movies
@@ -123,7 +89,7 @@ top_genres = spark.sql("""
 top_genres.coalesce(1).write.mode("overwrite").option("header", True).csv("output/top_genres")
 print("Saved: output/top_genres")
 
-# Save top rated movies
+
 top_movies = spark.sql("""
     SELECT title, genre, rating
     FROM movies
